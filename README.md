@@ -4,7 +4,7 @@
 
 ## Быстрый запуск 
 
-1. Экспортируйте ваш API ключ из [AI Studio](https://aistudio.google.com/apikey): `export GOOGLE_API_KEY=aaaaaaaaaaa`
+1. Экспортируйте ваш API ключ из [AI Studio](https://aistudio.google.com/apikey): `export GOOGLE_API_KEY=[КЛЮЧ]`
 
 2. Скачайте скрипт:
    `curl -o gem-cli.sh https://raw.githubusercontent.com/AAlx0451/gem-cli-curl/refs/heads/main/gem-cli.sh`
@@ -33,7 +33,7 @@
 3. Сделайте скрипт исполняемым:
    `chmod +x gem-cli.sh`
 
-4. Экспортируйте ваш API ключ из [AI Studio](https://aistudio.google.com/apikey): `echo "export GOOGLE_API_KEY=aaaaaaaaaaa" >> ~/.bashrc`
+4. Экспортируйте ваш API ключ из [AI Studio](https://aistudio.google.com/apikey): `echo "export GOOGLE_API_KEY=[КЛЮЧ]" >> ~/.bashrc`
 
 5. Добавьте скрипт в PATH для глобального использования:
    ```bash
