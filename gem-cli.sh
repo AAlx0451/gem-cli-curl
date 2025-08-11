@@ -6,7 +6,7 @@ declare -A COLORS=(
     [DIM]='\033[2m'           [RESET]='\033[0m'           [ERROR]='\033[1;31m'
     [WARNING]='\033[95m'
 )
-BASE_API_URL="https://generativelanguage.googleapis.com/v1beta/models/"
+BASE_API_URL="https://generativelanguage.googleapis.com/v1/models/"
 IMAGE_GENERATION_MODEL="gemini-2.0-flash-preview-image-generation"
 WOW_PROMPT_MODEL="gemini-2.5-flash"
 DEFAULT_MODEL="gemini-2.0-flash"
